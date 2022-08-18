@@ -1,0 +1,5 @@
+* text=auto
+*.py text
+*.md text
+*.cmd text
+Makefile text
