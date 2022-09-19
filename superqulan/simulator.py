@@ -56,7 +56,7 @@ def Stochastic_solver_dynamics(
     times: ArrayLike,
     state: ArrayLike,
     H: Callable,
-    rates: ArrayLike[float],
+    rates: ArrayLike,
     jumps: list,
     collect: Callable = lambda t, state: state,
 ):
